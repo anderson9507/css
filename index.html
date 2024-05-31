@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url(./style2.css);
+    </style>
+    
+    <style>
+        button{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Formulario de practica</h1>
+    </header>
+
+    <main>
+        <form action="" method="post">
+            <div>
+            <div style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input id="apellido" name="apellido" type="text" placeholder="Ingresa tu apellido" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Ingresa tu Correo" required>
+            </div>
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="text" name="telefono" id="telefono" placeholder="Ingresa tu numero de telefono" required>
+            </div>
+        </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
