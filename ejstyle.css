@@ -1,0 +1,24 @@
+main {
+    margin-top: 50px;
+    padding-top: 50px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: dotted green 5px;
+    border-left: double black 5px;
+    border-right: dashed blue 5px;
+    border-bottom: solid red 4px;
+}
+
+h1{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
