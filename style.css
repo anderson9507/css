@@ -3,3 +3,13 @@ div {
     display: flex;
     flex-direction: column;
 }
+
+input:not(:placeholder-shown):invalid{
+    background-color:pink;
+    box-shadow:0 0 0 2px red;
+}
+
+input:valid{
+    background-color: rgb(56, 255, 139);
+    box-shadow: 0 0 0 2px green;
+}
