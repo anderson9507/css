@@ -1,0 +1,24 @@
+main {
+    display: flex;
+}
+
+p{
+    margin: 0px;
+}
+
+.uno {
+    width: 400px;
+    height: 300px;
+    background-color: yellowgreen;
+    overflow: hidden;
+
+}
+
+.dos {
+    width: 400px;
+    height: 300px;
+    margin: 1px;
+    background-color: yellowgreen;
+    overflow: auto;
+
+}
