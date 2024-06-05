@@ -1,0 +1,15 @@
+div {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.uno {
+    width: 49%;
+    height: 100px;
+    float: right;
+}
+
+.dos {
+    width: 49%;
+    height: 300px;
+}

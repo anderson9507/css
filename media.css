@@ -1,0 +1,64 @@
+
+@media (min-width: 1024px){
+    div {
+        height: 60px;
+        margin-top: 5px;
+    }
+
+    .orange {
+        background-color: orange;
+        display: inline-block;
+        width: 49%;
+        margin-left: 6px;
+    }
+
+    .yellow {
+        background-color: rgb(224, 134, 102);
+    }
+
+    .blue {
+        background-color: rgb(35, 192, 192);
+        display: inline-block;
+        width: 33%;
+        height: 150px;
+        margin-left: 0px;
+    }
+
+    .gray {
+        background-color: rgba(0, 120, 200, 0.4);
+        display: inline-block;
+        width: 49%;
+        margin-left: 4px;
+        }
+
+    .cuatro {
+        margin-left: 10px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    div {
+        height: 60px;
+        margin-top: 5px;
+    }
+
+    .orange {
+        background-color: rgba(200, 570, 100, 0.4);
+    }
+
+    .yellow {
+        background-color: rgb(224, 134, 102);
+    }
+
+    .blue {
+        background-color: rgb(35, 192, 192);
+    }
+
+    .gray {
+        background-color: rgba(0, 120, 200, 0.4);
+        display: inline-block;
+        width: 49%;}
+    }
+
+

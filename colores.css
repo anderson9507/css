@@ -1,0 +1,100 @@
+.box {
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    border: solid 2px black;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+
+section {
+    width: 344px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: rgb(61, 236, 34);
+}
+
+.box3 {
+    background-color: blue;
+}
+
+p {
+    display: inline-block;
+    position: relative;
+    top: -42px;
+}
+
+.box4 {
+    background-color: red;
+}
+
+.box5 {
+    background-color: blue;
+}
+
+.box6 {
+    background-color: rgb(226, 56, 235);
+}
+
+.box7 {
+    background-color: blue;
+}
+
+.box8 {
+    background-color: rgb(61, 236, 34);
+}
+
+.box9 {
+    background-color: aqua;
+}
+
+.box10 {
+    background-color: rgb(61, 236, 34);
+}
+
+.box11 {
+    background-color: red;
+}
+
+.box12 {
+    background-color: rgb(255, 200, 0);
+}
+
+.gradient {
+    margin-left: 45%;
+}
+
+.gradient .box {
+    margin: 0px;
+    position: relative;
+    border: none;
+    mix-blend-mode: screen;
+}
+
+.box13 {
+    background-color: red;
+
+}
+
+.box14 {
+    background-color: rgb(61, 236, 34);
+    left: -26px;
+    background-blend-mode: multiply;
+    
+}
+
+.box15 {
+    background-color: blue;
+    bottom: -55px;
+    left: -145px;
+    z-index: 5;
+}
