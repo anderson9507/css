@@ -1,0 +1,163 @@
+Body {
+    margin: 0px;
+}
+
+.box {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.header {
+    background-color: rgba(8, 16, 85, 0.808);
+}
+
+.menu {
+    background-color: rgb(243, 94, 78);
+}
+
+.hero {
+    background-color: rgb(17, 161, 228);
+}
+
+.main {
+    background-color: rgb(5, 64, 133);
+}
+
+.banner {
+    background-color: rgb(221, 191, 92);
+    color: rgb(73, 71, 71);
+}
+
+.extra {
+    background-color: rgb(109, 253, 193);
+    color: rgb(73, 71, 71);
+}
+
+.image {
+    background-color: rgb(228, 223, 223);
+    color: rgb(73, 71, 71);
+}
+
+@media (320px <= width <=768px) {
+    main {
+        display: block;
+    }
+
+    .header {
+        height: 50px;
+    }
+
+    .menu {
+        height: 50px
+    }
+
+    .hero {
+        height: 150px;
+    }
+
+    .main {
+        height: 120px;
+    }
+
+    .banner {
+        height: 100px;
+    }
+
+    .extra {
+        height: 100px;
+    }
+
+    .image {
+        height: 100px;
+    }
+}
+
+@media (768px< width <= 1024px) {
+    main {
+        display: grid;
+        width: 100%;
+        height: 500px;
+        grid-template-areas: 
+        "header header header"
+        "hero hero hero"
+        "menu main main"
+        "menu banner banner"
+        "menu extra image";
+        grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    .header {
+        grid-area: header;
+    }
+
+    .hero {
+        grid-area: hero;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    .menu {
+        grid-area: menu;
+    }
+
+    .banner {
+        grid-area: banner;
+    }
+
+    .extra {
+        grid-area: extra;
+    }
+
+    .image {
+        grid-area: image;
+    }
+}
+
+@media (width > 1024px) {
+    main {
+        display: grid;
+        width: 100%;
+        height: 600px;
+        grid-template-areas: 
+        "header menu menu menu"
+        "hero hero hero hero"
+        "main main 0 image"
+        "main main 0 extra"
+        "banner banner banner banner";
+        grid-template-rows: 1fr 3fr 1fr 1fr 1fr;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .header {
+        grid-area: header;
+    }
+
+    .hero {
+        grid-area: hero;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    .menu {
+        grid-area: menu;
+    }
+
+    .banner {
+        grid-area: banner;
+    }
+
+    .extra {
+        grid-area: extra;
+    }
+
+    .image {
+        grid-area: image;
+    }
+}
